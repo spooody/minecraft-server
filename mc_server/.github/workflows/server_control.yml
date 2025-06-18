@@ -1,0 +1,38 @@
+name: Control Minecraft Server
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Choose server action'
+        required: true
+        default: 'start'
+        type: choice
+        options:
+          - start
+          - stop
+          - backup
+
+jobs:
+  control:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Run selected action
+        run: |
+          chmod +x *.sh
+          if [ "${{ github.event.inputs.action }}" == "start" ]; then
+            ./start.sh
+          elif [ "${{ github.event.inputs.action }}" == "stop" ]; then
+            ./stop.sh
+          elif [ "${{ github.event.inputs.action }}" == "backup" ]; then
+            ./backup.sh
+          fi
