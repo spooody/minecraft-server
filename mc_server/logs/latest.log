@@ -1,0 +1,330 @@
+[15:10:59] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1027-azure (amd64)
+[15:10:59] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) for Minecraft 1.21.4
+[15:10:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:10:59] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+[15:11:02] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 2937ms.
+[15:11:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:11:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - playit-gg (0.1.4)
+[15:11:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:11:13] [ServerMain/INFO]: Loaded 1370 recipes
+[15:11:13] [ServerMain/INFO]: Loaded 1481 advancements
+[15:11:13] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[15:11:13] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 373.7ms
+[15:11:14] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[15:11:14] [Server thread/WARN]: ****************************
+[15:11:14] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[15:11:14] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[15:11:14] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[15:11:14] [Server thread/WARN]: ****************************
+[15:11:14] [Server thread/INFO]: Loading properties
+[15:11:14] [Server thread/INFO]: This server is running Paper version 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[15:11:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:11:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:11:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:11:15] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:11:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:11:16] [Server thread/INFO]: Default game type: SURVIVAL
+[15:11:16] [Server thread/INFO]: Generating keypair
+[15:11:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:11:16] [Server thread/INFO]: Using epoll channel type
+[15:11:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:11:17] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:11:17] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[15:11:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:11:17] [Server thread/INFO]: Preparing level "world"
+[15:11:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:11:18] [Server thread/INFO]: Preparing spawn area: 0%
+[15:11:18] [Server thread/INFO]: Preparing spawn area: 2%
+[15:11:20] [Server thread/INFO]: Preparing spawn area: 2%
+[15:11:20] [Server thread/INFO]: Preparing spawn area: 2%
+[15:11:20] [Server thread/INFO]: Time elapsed: 1959 ms
+[15:11:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:11:20] [Server thread/INFO]: Preparing spawn area: 0%
+[15:11:20] [Server thread/INFO]: Time elapsed: 454 ms
+[15:11:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:11:20] [Server thread/INFO]: Preparing spawn area: 0%
+[15:11:20] [Server thread/INFO]: Time elapsed: 262 ms
+[15:11:20] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[15:11:21] [Server thread/INFO]: [spark] Starting background profiler...
+[15:11:21] [Server thread/INFO]: Done preparing level "world" (4.417s)
+[15:11:21] [Server thread/INFO]: Running delayed init tasks
+[15:11:21] [Server thread/INFO]: Done (23.521s)! For help, type "help"
+[15:11:24] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key not set, generate claim code: b78d32572f693039
+[15:11:24] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:11:25] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:11:28] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:11:28] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:11:31] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:11:32] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:11:35] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:11:35] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:11:38] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:11:38] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:11:41] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:11:41] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:11:44] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:11:45] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:11:48] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:11:48] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:11:51] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:11:51] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:11:54] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:11:54] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:11:57] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:11:58] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:01] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:01] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:04] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:04] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:07] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:08] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:11] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:11] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:14] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:14] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:17] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:17] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:20] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:21] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:24] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:24] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:27] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:27] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:30] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:30] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:33] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:34] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:37] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:37] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:40] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:40] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:43] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:44] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:47] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:47] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:50] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:50] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:53] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:53] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:12:56] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:12:57] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:00] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:00] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:06] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:06] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:09] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:10] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:13] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:13] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:16] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:16] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:19] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:19] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:22] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:23] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:26] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:26] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:29] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:29] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:32] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:33] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:36] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:36] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:39] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:39] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:42] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:42] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:45] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:46] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:49] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:49] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:52] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:52] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:55] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:55] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:13:58] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:13:59] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:02] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:02] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:05] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:05] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:08] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:09] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:12] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:12] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:15] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:15] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:18] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:18] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:21] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:22] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:25] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:25] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:28] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:28] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:31] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:31] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:34] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:35] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:38] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:38] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:41] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:41] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:44] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:45] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:48] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:48] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:51] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:51] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:54] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:54] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:14:57] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:14:58] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:01] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:01] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:04] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:04] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:07] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:07] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:10] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:11] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:14] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:14] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:17] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:17] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:20] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:20] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:23] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:24] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:27] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:27] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:30] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:30] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:33] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:34] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:37] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:37] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:40] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:40] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:43] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:43] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:46] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:47] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:50] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:50] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:53] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:53] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:56] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:15:56] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:15:59] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:00] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:06] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:06] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:09] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:10] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:13] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:13] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:16] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:16] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:19] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:19] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:22] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:23] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:26] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:26] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:29] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:29] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:32] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:32] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:35] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:36] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:39] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:39] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:42] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:42] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:45] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:46] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:49] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:49] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:52] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:52] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:55] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:55] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:16:58] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:16:59] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:17:02] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:17:02] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:17:05] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:17:05] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:17:08] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:17:08] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/b78d32572f693039
+[15:17:11] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[15:17:12] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[15:17:13] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] create new minecraft java tunnel
+[15:17:18] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: connection-nitrogen.joinmc.link
+[15:17:18] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[15:17:18] [Thread-7/INFO]: playit.gg: WARNING: email associated with playit.gg account is not verified
+[15:17:18] [Thread-7/INFO]: playit.gg: tunnel setup
+[15:17:18] [Thread-7/INFO]: playit.gg: connection-nitrogen.joinmc.link
+[15:17:18] [Thread-7/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:840:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[15:17:19] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[15:20:25] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.29:30935, peerAddr=172.104.152.224:41956, claimAddress=209.25.143.2:43783, claimToken=[44, 0, 60, -109, -71, -35, 29, 120, -41, -84, 104, -104, -32, -93, -28, 103, -60, -124, -115, -85, 7, 104, 81, -121, -71, 0, 0, 0, 0, 0, 21, 9, 20, 0, 0, 0, 0, 0, 70, -34, -7, -30, -115, -85, 7, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -119, 66, -80, -125, 34, 119, 52, -33, -65, -97, -41, 102, -38, 63, -22, 58], tunnelServerId=1, dataCenterId=36}
+[15:20:25] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[15:20:25] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43783 to claim client
+[15:20:25] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[15:20:25] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[15:20:25] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[15:20:25] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[15:20:25] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[15:20:25] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[15:20:25] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:21:19] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:23:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:0830:0001:0000:0000:0000:001d]:30935, peerAddr=[2a01:7e01:0000:0000:f03c:92ff:fea9:a7d3]:57308, claimAddress=209.25.143.2:43783, claimToken=[64, 0, 88, 38, 2, -5, -81, 8, 48, 0, 1, 0, 0, 0, 0, 0, 0, 0, 29, 120, -41, 42, 1, 126, 1, 0, 0, 0, 0, -16, 60, -110, -1, -2, -87, -89, -45, -33, -36, 0, 0, 0, 0, 90, 56, -98, 7, -85, 7, 104, 81, -120, 87, 0, 0, 0, 0, 0, 21, 9, 20, 0, 0, 0, 0, 0, 70, -34, -7, -5, 7, -85, 7, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 114, -122, -124, 39, -77, -17, -55, 8, -51, -104, -28, 92, -123, -40, 20, -18], tunnelServerId=1, dataCenterId=36}
+[15:23:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[15:23:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43783 to claim client
+[15:23:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[15:23:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[15:23:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[15:23:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[15:23:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[15:23:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[15:23:03] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:24:00] [Server thread/INFO]: Stopping the server
+[15:24:00] [Server thread/INFO]: Stopping server
+[15:24:00] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[15:24:00] [Server thread/INFO]: Saving players
+[15:24:00] [Server thread/INFO]: Saving worlds
+[15:24:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[15:24:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[15:24:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:24:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:24:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[15:24:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[15:24:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[15:24:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:24:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:24:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:24:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:24:01] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[15:24:01] [Server thread/INFO]: All I/O tasks to complete
+[15:24:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[15:24:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
